@@ -8,3 +8,5 @@ RUN apt-get update &&\
 RUN mkdir /src
 WORKDIR /src
 COPY . /src/
+
+RUN echo "complete"
